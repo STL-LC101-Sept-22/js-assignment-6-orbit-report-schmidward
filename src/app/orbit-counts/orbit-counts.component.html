@@ -3,5 +3,3 @@
 	<div>Total: <span class="counts-total" *ngIf="satellites">{{ satellites.length }}</span></div>
 	<div *ngFor="let item of orbitTypes">{{ item }}<span class="counts-total">{{ countByType(item)}}</span></div>
 </div>
-
-<!-- TODO 4: add logic to count number of satellites displayed -->
